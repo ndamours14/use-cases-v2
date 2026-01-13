@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ndamours14.github.io/use-cases-v2/'
 languageCode = 'en-us'
 title = 'The AV Hugo Site'
 theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
